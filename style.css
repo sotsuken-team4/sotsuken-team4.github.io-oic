@@ -1,0 +1,97 @@
+h1{
+color:#ba55d3;
+font-size:250%;
+position:relative;
+}
+h2{
+font-size:140%;
+}
+div{
+width:640px;
+margin-right:auto;
+margin-left:auto;
+margin-top:20px;
+}
+h1,h2,footer{
+text-align:center;
+font-family: 'Kiwi Maru', serif;
+}
+p{
+font-family: 'Kiwi Maru', serif;
+}
+body{
+border-top:solid 10px #ba55d3; /*線*/
+}
+section{
+background-image:url(image/bot.png); /*ボットイメージ*/
+background-repeat:no-repeat;
+background-position:104% -13%;
+background-size:100px 100px;
+text-align:center;
+}
+body{
+background-image: url(image/b082.jpg); /*背景*/
+}
+section{
+box-shadow:0 0 10px 0 #ccc; /*本文ボックス*/
+margin:20px;
+padding:20px;
+background-color:white;
+}
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 97.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 0.9rem; /*フォント大きさ*/
+  font-weight: 100; /*フォント太さ*/
+  line-height: 1.0; /*行ボックスの高さ*/
+  position: relative; /*位置変更*/
+  top:5px;
+  display: inline-block;
+  padding: 0.5rem 0.5rem; /*ボタンサイズ 縦　横*/
+  cursor: pointer; /*マウスカーソルをリンクポインタに指定*/
+  -webkit-user-select: none; /*指さす手の形に変化*/
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; /*ユーザーがテキストを範囲選択できるかどうかを制御*/
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; /*ホバー時にアニメーション*/
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em; /*文字間の空白距離*/
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+
+
+a.btn-border {
+  border: 1px solid #ba55d3;
+  border-radius: 0; /*角丸or直角*/
+  background: #fff;
+}
+
+a.btn-border:hover {
+  color: #fff;
+  background: #ba55d3;
+}
+
+
+
+
