@@ -28,7 +28,7 @@ border-top:solid 10px #ba55d3; /*線*/
 section{
 background-image:url(image/bot.png); /*ボットイメージ*/
 background-repeat:no-repeat;
-background-position:104% -13%;
+background-position:104% -11%;
 background-size:100px 100px;
 text-align:center;
 }
