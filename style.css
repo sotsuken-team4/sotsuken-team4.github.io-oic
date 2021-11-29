@@ -41,15 +41,6 @@ margin:20px;
 padding:20px;
 background-color:white;
 }
-  df-messenger {
-   --df-messenger-bot-message: white;
-   --df-messenger-button-titlebar-color: #dda0dd;
-   --df-messenger-chat-background-color: #fcf4fc;
-   --df-messenger-font-color: black;
-   --df-messenger-send-icon: #ba55d3;
-   --df-messenger-user-message: white;
-  }
-
 
 *,
 *:before,
