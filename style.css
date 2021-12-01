@@ -80,8 +80,6 @@ button.btn {
   border-radius: 0.5rem;
 }
 
-
-
 a.btn-border {
   border: 1px solid #ba55d3;
   border-radius: 0; /*角丸or直角*/
@@ -91,6 +89,41 @@ a.btn-border {
 a.btn-border:hover {
   color: #fff;
   background: #ba55d3;
+}
+
+.menu-btn{
+	position:fixed;
+	top:10px;
+	right:10px;
+	display:flex;
+	height:60px;
+	width:60px;
+	justify-content:center;
+	align-items:center;
+	z-index:90;
+	background-color:#3584bb;
+	top:20px;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after{
+	content:'';
+	display:block;
+	height:3px;
+	width:25px;
+	border-radius:3px;
+	background-color:#ffffff;
+	position:absolute;
+}
+.menu-btn span:before{
+	bottom:8px;
+}
+.menu-btn span:after{
+	top:8px;
+}
+
+#menu-btn-check{
+	display:none;
 }
 
 
