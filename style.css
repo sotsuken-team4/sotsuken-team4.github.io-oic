@@ -28,7 +28,7 @@ border-top:solid 10px #ba55d3; /*線*/
 section{
 background-image:url(image/bot.png); /*ボットイメージ*/
 background-repeat:no-repeat;
-background-position:104% -5%;
+background-position:104% -11%;
 background-size:100px 100px;
 text-align:center;
 }
@@ -41,6 +41,8 @@ margin:20px;
 padding:20px;
 background-color:white;
 }
+
+
 
 *,
 *:before,
@@ -90,3 +92,82 @@ a.btn-border:hover {
   color: #fff;
   background: #ba55d3;
 }
+
+
+
+
+
+#gnav-btn {
+    color: gray;
+    padding: 1px;
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 7.5px;
+    z-index: 100;
+    background-color: white;
+    border: solid 0.1px #ba55d3;
+    border-radius: 0px;
+  }
+  #gnav-input:checked ~ #gnav-content {
+    top: 0;
+  }
+  #gnav-content {
+    position: fixed;/*メニュー位置*/
+    top: -100%;
+    right: 0;
+    z-index: 10;
+    transition: 0.3s;
+    width: 50%;/*メニューサイズ*/
+    background-color:#f3ecf4;/*メニュー背景色*/
+  }
+  .humb-menu__title {
+    padding: 1.5rem;/*タイトル幅*/
+  }
+  .humb-menu label {
+    display: flex;/*関係なし*/
+    justify-content: space-between;/*関係なし*/
+    padding: 0.1px 1rem;/*ラベル幅*/
+    cursor: pointer;/*マウスカーソルをリンクポインタに指定*/
+    border-top: 0.5px solid #c7c5c5;/*線色*/
+  }
+  .humb-menu input {
+    display: none;/*関係なし*/
+  }
+  .humb-menu .accshow {
+    height: 0;/*関係なし*/
+    overflow: hidden;
+  }
+  .humb-menu .accshow p {
+    padding: 0.1px 1rem;/*コンテンツ幅*/
+  }
+  .humb-menu .cssacc:checked + .accshow {
+    height: auto;
+  }
+} 
+
+
+
+
+#gnav-btn{
+    z-index:999;/*追加*/
+    position:fixed;/*追加*/
+}
+
+#gnav-btn img{
+    width:100%;
+    max-width: 30px;
+}
+.humb-menu{
+    max-width:1000px;
+    margin: 0 auto;
+    position: relative;/*追加*/
+    height:100%;/*追加*/
+}
+gnav{
+    background-color:#ccc;
+    padding:20px 3%;
+}
+
+
+
