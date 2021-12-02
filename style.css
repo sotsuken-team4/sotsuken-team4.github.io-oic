@@ -125,17 +125,17 @@ a.btn-border:hover {
     padding: 1.5rem;/*タイトル幅*/
   }
   .humb-menu label {
-    display: flex;/*関係なし*/
-    justify-content: space-between;/*関係なし*/
+    display: flex;
+    justify-content: space-between;
     padding: 0.1px 1rem;/*ラベル幅*/
     cursor: pointer;/*マウスカーソルをリンクポインタに指定*/
     border-top: 0.5px solid #c7c5c5;/*線色*/
   }
   .humb-menu input {
-    display: none;/*関係なし*/
+    display: none;
   }
   .humb-menu .accshow {
-    height: 0;/*関係なし*/
+    height: 0;
     overflow: hidden;
   }
   .humb-menu .accshow p {
@@ -168,6 +168,3 @@ gnav{
     background-color:#ccc;
     padding:20px 3%;
 }
-
-
-
